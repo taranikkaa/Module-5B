@@ -2,18 +2,16 @@
 ## AIM
 To create and display a DataFrame using the Pandas library in Python from a given dictionary and apply specific index labels to the rows.
 ## ALGORITHM
+
 Step 1:Import the required libraries: pandas and numpy.
-
 Step 2: Define a dictionary named exam_data containing keys such as 'name', 'score', 'attempts', and 'qualify'.
-
 Step 3: Create a list called labels to be used as index labels for the DataFrame.
-
 Step 4: Use the pd.DataFrame() function to create the DataFrame by passing the dictionary and the labels.
-
 Step 5: Display the resulting DataFrame using the print() function or just typing the 
 
 DataFrame name.
 ## PROGRAM:
+
 ```
 import pandas as pd
 import numpy as np
@@ -25,6 +23,7 @@ labels = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j']
 df = pd.DataFrame(exam_data , index=labels)
 print(df)
 ```
+
 ## OUTPUT:
  
 ![image](https://github.com/user-attachments/assets/20282400-9894-41ab-98ef-96ccfabaacb8)
